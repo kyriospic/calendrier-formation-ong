@@ -1,0 +1,29 @@
+{
+  "name": "calendrier-formation-ong",
+  "version": "1.0.0",
+  "description": "Générateur de document Word (DOCX) pour un calendrier de formation révisé orienté profil ONG / Développement opérationnel (MEAL, Project, Finance DPro).",
+  "main": "generate-calendrier.js",
+  "scripts": {
+    "generate": "node generate-calendrier.js",
+    "start": "node generate-calendrier.js"
+  },
+  "keywords": [
+    "docx",
+    "formation",
+    "ong",
+    "meal",
+    "project-dpro",
+    "calendrier",
+    "pm4ngos",
+    "tchad"
+  ],
+  "author": "kyriospic",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "docx": "^9.6.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
